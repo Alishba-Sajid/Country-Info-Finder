@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Info Finder</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+   
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><i class="fa-solid fa-globe"></i> Country Info Finder</h1>
+        <p class="instruction"><i class="fa-solid fa-circle-info"></i> Type a country name (e.g., <strong>Pakistan</strong>) to see details.</p>
+        
+        <div class="search-box">
+            <input type="text" id="countryInput" placeholder="Enter country name...">
+            <button onclick="getCountryInfo()"><i class="fa-solid fa-magnifying-glass"></i> Search</button>
+        </div>
+
+        <div id="result" class="result-card">
+    <img src="./images/globe.png" 
+         alt="Globe" width="120" style="opacity:0.7;">
+    <p style="color:#666;">Your country info will appear here 🌍</p>
+</div>
+    </div>
+
+   <script src="./script.js"></script>
+</body>
+</html>
+
